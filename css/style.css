@@ -1,3 +1,8 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -30,7 +35,7 @@ body {
 }
 
 .single-item h3 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: bold;
     padding-top: 1rem;
     padding-bottom: 1rem;
