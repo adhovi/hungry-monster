@@ -35,13 +35,13 @@ const itemSearch = () => {
         //Logics for 'no item found', 'searching without giving any value' and 'correct search value' accordingly
         if (!items) {
             const noMatchDiv = document.createElement('div')
-            const itemInfo = `<p class="text-center"> No match item found </p>`
+            const itemInfo = `<p class="text-center"> No matched item found </p>`
             noMatchDiv.innerHTML = itemInfo
             document.getElementById('food-section').appendChild(noMatchDiv)
 
         } else if (searchItem == '') {
             const emptySearch = document.createElement('div')
-            const itemInfo = `<p class="text-center"> Enter e name to search </p>`
+            const itemInfo = `<p class="text-center"> Enter a food name to search </p>`
             emptySearch.innerHTML = itemInfo
             document.getElementById('food-section').appendChild(emptySearch)
 
